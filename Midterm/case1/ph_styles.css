@@ -43,6 +43,9 @@ body {
    font-family: 'Palatino Linotype', 'Book Antiqua', palatino, serif;
 }
 
+header {
+   background-color: black;
+}
 /* Navigation Styles */
 
 
