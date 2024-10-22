@@ -97,16 +97,16 @@ nav > ul > li.newgroup {
 
 /* List Styles */
 
-article.syllabus ol {
-   list-style-type: upper-roman;
+article#about_tss ul li:first-of-type {
+   list-style-image: url(runicon.png);
 }
 
-article.syllabus ol ol {
-   list-style-type: upper-alpha;
+article#about_tss ul li:nth-of-type(2) {
+   list-style-image: url(bikeicon.png);
 }
 
-article.syllabus ol ol ol {
-   list-style-type: decimal;
+article#about_tss ul li:last-of-type {
+   list-style-image: url(swimicon.png);
 }
 
 
