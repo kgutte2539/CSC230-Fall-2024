@@ -76,6 +76,10 @@ aside {
 
 /* Navigation Styles */	
 
+article#about_tss ul {
+   list-style-image: url(runicon.png);
+}
+
 nav {
    font-size: 0.8em;
 }
@@ -98,6 +102,7 @@ article.syllabus ol ol {
 article.syllabus ol ol ol {
    list-style-type: decimal;
 }
+
 
 /* Footer Styles */
 
