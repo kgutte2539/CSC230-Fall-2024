@@ -30,10 +30,22 @@ body > header > img {
    width: 100%;
 }
 
+body > header > nav.horizontalNavigation li {
+   width: 20%;
+}
+
 
 /* Horizontal Navigation Styles */
 
+nav.horizontalNavigation li {
+   display: block;
+   float: left;
+}
 
+nav.horizontalNavigation a {
+   display: block;
+   text-align: center;
+}
 
 /* Left Column Styles */
 
