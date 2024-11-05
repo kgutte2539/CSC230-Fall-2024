@@ -16,16 +16,13 @@
 /* Window and Body Styles */
 
 html {
-   /* rule for the html element that sets the height of the browser window at 100%.*/
    height: 100%;
 }
 
 body {
-   /* tyle rule for the page body that sets the width to 95% of the browser window ranging from 640 pixels up to 960 pixels */
    width: 95%;
    min-width: 640px;
    max-width: 960px;
-   /* Horizontally center the page body within the browser window*/
    margin: 0 auto;
 
    /* Set the minimum height of the browser window to 100%. */
@@ -34,41 +31,34 @@ body {
 
 /* Images */
 img {
-   /* style rule to display all inline images as blocks. */
    display: block;
 }
 
 /* CSS Grid Styles */
 body {
-   /* style rule that displays the body element as a grid with four columns of length 1fr.*/
    display: grid;
    grid-template-columns: repeat(4, 1fr);
 }
 
 /* Logo */
 #logo {
-   /* style rule for the img element with id "logo" so that the logo image spans three columns and has a width of 100%.*/
    grid-column: span 3;
    width: 100%;
 }
 
 /* Navigation and Footer */
 
-/* For the horizontal navigation list and the footer element: a style rule so that those elements span four columns. */
 nav.horizontal,
 footer {
    grid-column: span 4;
 }
 
-/* style for the aside element to span two columns.*/
 aside {
    grid-column: span 2;
 }
 
 /* Horizontal Navigation List Styles */
 
-/* style rule for li elements nested within the horizontal navigation list that display each element as a block 
-with a width of 12.5% and floated on the left margin.*/
 nav.vertical li {
    display: block;
    width: 12.5%;
@@ -78,15 +68,11 @@ nav.vertical li {
 
 /* Section Styles */
 
-/* style rule for inline images within the section element that sets the width of the image to 50% 
-and centers the image using a top/bottom margin of 0 and a left/right margin of auto.*/
 section img {
    width: 50%;
    margin: 0 auto 0 auto; /* short hand: top right bottom left */
 }
 
-/* style rule for paragraphs within the section element that sets the width of the paragraph to 70% 
-and centers the paragraph using a top/bottom margin of 0 and a left/right margin of auto.*/
 section p {
    width: 70%;
    margin: 0 auto 0 auto; /* short hand: top right bottom left */
@@ -94,25 +80,20 @@ section p {
 
 /* Customer Comment Styles */
 
-/* style rule for the aside element setting the width to 75% and the bottom padding to 30 pixels.*/
 aside {
    width: 75%;
    padding-bottom: 30px;
 }
 
-/* The six aside elements will be displayed in two columns. 
-For odd-numbered aside elements*/
 aside:nth-of-type(odd) {
    justify-self: end;
 }
 
-/* Float inline images nested within the aside element on the left with a width of 20%.*/
 aside img {
    float: left;
    width: 20%;
 }
 
-/* Float paragraphs nested within the aside element on the left with a width of 75% and a left margin of 5%.*/
 aside p {
    float: left;
    width: 75%;
