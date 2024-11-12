@@ -21,7 +21,14 @@ body {
 
 /* Navigation Tabs List Styles */
 
+body > header nav.tabs {
+   background: url('sf_back1.png') no-repeat center center;
+   background-size: cover;
+}
 
+body > header nav.tabs li {
+   transform: perspective(50px) rotateX(20deg);
+}
 
 
 /* Left Section Styles */
