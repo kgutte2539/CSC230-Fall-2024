@@ -68,3 +68,32 @@ article {
    ===================================================
 */
 
+@media only screen and (min-width: 481px) {
+   nav.horizontal ul {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row;
+      flex-flow: row;
+   }
+
+   nav.horizontal li {
+      -webkit-flex: 1 1 auto;
+      flex: 1 1 auto;
+   }
+
+   img.size1 {
+      width: 100%;
+   }
+
+   img.size2 {
+      width: 60%;
+   }
+
+   img.size3 {
+      width: 40%;
+   }
+
+   img.size4 {
+      width: 30%;
+   }
+}
