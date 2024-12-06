@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+
+
+body {
+    font-family: sans-serif, Verdana, Tacoma, Helvetica;
+    font-size: 16px;
+    width: 85%;
+    margin: 0 auto;
+    background-color: darkolivegreen;
+}
+
+header h1 {
+    font-size: 36pt;
+    margin: 35px 0 0 0;
+    padding: 15px 0 0 15px;
+    background-color: lightcoral;
+}
+
+header h3 {
+    font-size: 24pt;
+    margin: 0px;
+    padding: 0 0 15px 15px;
+    background-color: lightcoral;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+    background-color: darkgray;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 16pt;
+    text-align: left;
+    background-color: blueviolet;
+}
+
+p {
+    margin: 15px;
+    padding: 15px;
+}
+
+table {
+    border-width: 0;
+}
+
+nav {
+    background-color: lightcoral;
+    color: darkblue;
+    text-align: center horizontal;
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+}
