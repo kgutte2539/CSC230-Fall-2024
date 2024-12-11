@@ -47,7 +47,10 @@ p {
 }
 
 table {
-    border-width: 0;
+    border: 0;
+    padding: 2px 5px 2px 5px;
+    width: 90%;
+    margin-left: 30px;
 }
 
 nav {
